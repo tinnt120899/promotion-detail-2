@@ -1,0 +1,1 @@
+# promotion-detail-2
