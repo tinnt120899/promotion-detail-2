@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+          name="viewport">
+    <title>Title</title>
+    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet">
+
+    <link href="style.css" rel="stylesheet">
+    <link href="slider/flickity.css" rel="stylesheet">
+    <!-- Fontawesome -->
+    <link href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.14.0/css/v4-shims.css" rel="stylesheet">
+
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container-fluid m-0 p-0">
+
+    <nav class="navbar navbar-expand-xl align-items-end bg-none p-2">
+        <!--  Show this only on mobile to medium screens  -->
+        <a class="ml-sm-2 navbar-brand d-xl-none align-items-center" href="index.html">
+            <img class="mr-2" src="img/group.png">
+        </a>
+
+        <button aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler parent-elem mb-2 mr-sm-2 "
+                data-target="#navbarToggle" data-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon">
+                <i class="fas fa-bars text-primary"></i>
+            </span>
+        </button>
+
+        <!--  Use flexbox utility classes to change how the child elements are justified  -->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarToggle">
+            <!--   Show this only lg screens and up   -->
+            <a class="navbar-brand d-none d-xl-block" href="index.html">
+                <img class="logo mr-5" src="img/group.png">
+            </a>
+
+            <ul class="navbar-nav align-items-center text-center">
+                <li class="nav-item mr-3">
+                    <a class="nav-link title-menu">Home</a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a class="nav-link title-menu">Games</a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a class="nav-link title-menu">Order</a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a class="nav-link title-menu">FAQ</a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a class="nav-link title-menu">Promotions</a>
+                </li>
+                <li class="nav-item mr-3">
+                    <input class="w-100 searchInput" placeholder="Enter keywords to search..."
+                           style="border: solid 1px #707070;background-color: #ffffff;"
+                           type="text">
+                </li>
+                <li class="nav-item">
+                    <i class="fas fa-user-circle text-white fa-2x"></i>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="row justify-content-center bg-header m-0 mb-5">
+        <div class="col-xl-4 text-center text-white">
+            <h3 class="font-weight-bold text-uppercase">Promotions</h3>
+            <span class="sub-title">You can earn more than you expect.</span>
+        </div>
+    </div>
+
+    <div class="row justify-content-center m-0 mb-5">
+        <div class="col-lg-8 col-md-10 col-sm-12 mb-3">
+            <span class="font-weight-bold text-title float-left pl-2">Promotion / Promotion Detail</span>
+            <span class="text-primary float-right pr-2"><img class="mr-1" src="img/ic-arrow-right-alt.png">Back</span>
+        </div>
+
+        <div class="col-lg-8 col-md-10 col-sm-12 mb-5">
+            <img class="img-fluid border-radius" src="img/rectangle@2x.png">
+        </div>
+
+        <div class="col-lg-8 col-md-10 col-sm-12">
+            <h3 class="font-weight-bold">Buy one to get one free</h3>
+            <p class="font-14">From 20 Jan - 20 Dec, 2021</p>
+        </div>
+    </div>
+
+    <div class="row justify-content-center m-0 pb-5 mb-5">
+
+        <div class="col-lg-8 col-md-10 col-sm-12 pb-5">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item active">
+                    <a aria-controls="home" aria-selected="true" class="nav-link text-uppercase active"
+                       data-toggle="tab" href="#home"
+                       id="best-seller-tab" role="tab">Information</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-controls="profile" aria-selected="false" class="nav-link text-uppercase" data-toggle="tab"
+                       href="#profile"
+                       id="most-discount-tab" role="tab">Term</a>
+                </li>
+            </ul>
+            <div class="tab-content pb-5" id="myTabContent">
+                <div aria-labelledby="best-seller-tab" class="tab-pane fade show active" id="home" role="tabpanel">
+                    <div class="font-weight-bold mt-5 mb-4 pb-3 title-custom">Requirement</div>
+                    <p class="font-14">Fusce sit amet nibh nec ante porta laoreet. Aenean viverra in lorem eu
+                        condimentum. Pellentesque
+                        habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur
+                        interdum, tellus quis bibendum vulputate, quam tortor accumsan nulla, quis convallis est arcu
+                        sed nisl. Quisque porttitor laoreet luctus. Donec ac metus bibendum mauris scelerisque mattis eu
+                        sit amet mauris. Vivamus at mauris eu dolor scelerisque suscipit a a metus. Phasellus maximus
+                        luctus urna at ornare. Phasellus commodo tincidunt felis. Integer cursus quam lobortis, sagittis
+                        mauris sit amet, suscipit nibh. Duis erat tortor, tempus nec leo non, volutpat dignissim leo.
+                        Donec aliquet augue id tortor mattis, id ornare elit varius.
+
+                        Maecenas in purus lacinia, egestas elit eu, scelerisque nulla. Donec sed leo in arcu lacinia
+                        scelerisque. Phasellus enim purus, porta sit amet nisi volutpat, bibendum vehicula turpis.
+                        Mauris volutpat neque sit amet elementum luctus. Nulla viverra neque sem, sed feugiat risus
+                        consequat et. Integer pellentesque leo ac molestie faucibus. Praesent at accumsan ante, accumsan
+                        feugiat arcu. Integer sed tincidunt nisl. Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Aenean lacinia vel ex quis faucibus. Nam laoreet eget lorem a auctor. Suspendisse ac massa
+                        id est scelerisque tristique quis vel urna. Curabitur metus nulla, sollicitudin nec suscipit ut,
+                        commodo in elit. Praesent neque augue, mollis a scelerisque bibendum, cursus sed nunc.</p>
+
+                    <p class="font-14">Fusce sit amet nibh nec ante porta laoreet. Aenean viverra in lorem eu
+                        condimentum. Pellentesque
+                        habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur
+                        interdum, tellus quis bibendum vulputate, quam tortor accumsan nulla, quis convallis est arcu
+                        sed nisl. Quisque porttitor laoreet luctus. Donec ac metus bibendum mauris scelerisque mattis eu
+                        sit amet mauris. Vivamus at mauris eu dolor scelerisque suscipit a a metus. Phasellus maximus
+                        luctus urna at ornare. Phasellus commodo tincidunt felis. Integer cursus quam lobortis, sagittis
+                        mauris sit amet, suscipit nibh. Duis erat tortor, tempus nec leo non, volutpat dignissim leo.
+                        Donec aliquet augue id tortor mattis, id ornare elit varius.
+
+                        Maecenas in purus lacinia, egestas elit eu, scelerisque nulla. Donec sed leo in arcu lacinia
+                        scelerisque. Phasellus enim purus, porta sit amet nisi volutpat, bibendum vehicula turpis.
+                        Mauris volutpat neque sit amet elementum luctus. Nulla viverra neque sem, sed feugiat risus
+                        consequat et. Integer pellentesque leo ac molestie faucibus. Praesent at accumsan ante, accumsan
+                        feugiat arcu. Integer sed tincidunt nisl. Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Aenean lacinia vel ex quis faucibus. Nam laoreet eget lorem a auctor. Suspendisse ac massa
+                        id est scelerisque tristique quis vel urna. Curabitur metus nulla, sollicitudin nec suscipit ut,
+                        commodo in elit. Praesent neque augue, mollis a scelerisque bibendum, cursus sed nunc.</p>
+
+                    <div class="font-weight-bold mt-5 mb-4 pb-3 title-custom">Condition</div>
+                    <p class="font-14">Fusce sit amet nibh nec ante porta laoreet. Aenean viverra in lorem eu
+                        condimentum. Pellentesque
+                        habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur
+                        interdum, tellus quis bibendum vulputate, quam tortor accumsan nulla, quis convallis est arcu
+                        sed nisl. Quisque porttitor laoreet luctus. Donec ac metus bibendum mauris scelerisque mattis eu
+                        sit amet mauris. Vivamus at mauris eu dolor scelerisque suscipit a a metus. Phasellus maximus
+                        luctus urna at ornare. Phasellus commodo tincidunt felis. Integer cursus quam lobortis, sagittis
+                        mauris sit amet, suscipit nibh. Duis erat tortor, tempus nec leo non, volutpat dignissim leo.
+                        Donec aliquet augue id tortor mattis, id ornare elit varius.
+
+                        Maecenas in purus lacinia, egestas elit eu, scelerisque nulla. Donec sed leo in arcu lacinia
+                        scelerisque. Phasellus enim purus, porta sit amet nisi volutpat, bibendum vehicula turpis.
+                        Mauris volutpat neque sit amet elementum luctus. Nulla viverra neque sem, sed feugiat risus
+                        consequat et. Integer pellentesque leo ac molestie faucibus. Praesent at accumsan ante, accumsan
+                        feugiat arcu. Integer sed tincidunt nisl. Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Aenean lacinia vel ex quis faucibus. Nam laoreet eget lorem a auctor. Suspendisse ac massa
+                        id est scelerisque tristique quis vel urna. Curabitur metus nulla, sollicitudin nec suscipit ut,
+                        commodo in elit. Praesent neque augue, mollis a scelerisque bibendum, cursus sed nunc.</p>
+                </div>
+
+                <div aria-labelledby="most-discount-tab" class="tab-pane fade" id="profile" role="tabpanel">
+                    <div class="font-weight-bold mt-5 mb-4 pb-3 title-custom">Requirement</div>
+                    <p class="font-14">Fusce sit amet nibh nec ante porta laoreet. Aenean viverra in lorem eu
+                        condimentum. Pellentesque
+                        habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur
+                        interdum, tellus quis bibendum vulputate, quam tortor accumsan nulla, quis convallis est arcu
+                        sed nisl. Quisque porttitor laoreet luctus. Donec ac metus bibendum mauris scelerisque mattis eu
+                        sit amet mauris. Vivamus at mauris eu dolor scelerisque suscipit a a metus. Phasellus maximus
+                        luctus urna at ornare. Phasellus commodo tincidunt felis. Integer cursus quam lobortis, sagittis
+                        mauris sit amet, suscipit nibh. Duis erat tortor, tempus nec leo non, volutpat dignissim leo.
+                        Donec aliquet augue id tortor mattis, id ornare elit varius.
+
+                        Maecenas in purus lacinia, egestas elit eu, scelerisque nulla. Donec sed leo in arcu lacinia
+                        scelerisque. Phasellus enim purus, porta sit amet nisi volutpat, bibendum vehicula turpis.
+                        Mauris volutpat neque sit amet elementum luctus. Nulla viverra neque sem, sed feugiat risus
+                        consequat et. Integer pellentesque leo ac molestie faucibus. Praesent at accumsan ante, accumsan
+                        feugiat arcu. Integer sed tincidunt nisl. Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Aenean lacinia vel ex quis faucibus. Nam laoreet eget lorem a auctor. Suspendisse ac massa
+                        id est scelerisque tristique quis vel urna. Curabitur metus nulla, sollicitudin nec suscipit ut,
+                        commodo in elit. Praesent neque augue, mollis a scelerisque bibendum, cursus sed nunc.</p>
+
+                    <p class="font-14">Fusce sit amet nibh nec ante porta laoreet. Aenean viverra in lorem eu
+                        condimentum. Pellentesque
+                        habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur
+                        interdum, tellus quis bibendum vulputate, quam tortor accumsan nulla, quis convallis est arcu
+                        sed nisl. Quisque porttitor laoreet luctus. Donec ac metus bibendum mauris scelerisque mattis eu
+                        sit amet mauris. Vivamus at mauris eu dolor scelerisque suscipit a a metus. Phasellus maximus
+                        luctus urna at ornare. Phasellus commodo tincidunt felis. Integer cursus quam lobortis, sagittis
+                        mauris sit amet, suscipit nibh. Duis erat tortor, tempus nec leo non, volutpat dignissim leo.
+                        Donec aliquet augue id tortor mattis, id ornare elit varius.
+
+                        Maecenas in purus lacinia, egestas elit eu, scelerisque nulla. Donec sed leo in arcu lacinia
+                        scelerisque. Phasellus enim purus, porta sit amet nisi volutpat, bibendum vehicula turpis.
+                        Mauris volutpat neque sit amet elementum luctus. Nulla viverra neque sem, sed feugiat risus
+                        consequat et. Integer pellentesque leo ac molestie faucibus. Praesent at accumsan ante, accumsan
+                        feugiat arcu. Integer sed tincidunt nisl. Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Aenean lacinia vel ex quis faucibus. Nam laoreet eget lorem a auctor. Suspendisse ac massa
+                        id est scelerisque tristique quis vel urna. Curabitur metus nulla, sollicitudin nec suscipit ut,
+                        commodo in elit. Praesent neque augue, mollis a scelerisque bibendum, cursus sed nunc.</p>
+
+                    <div class="font-weight-bold mt-5 mb-4 pb-3 title-custom">Condition</div>
+                    <p class="font-14">Fusce sit amet nibh nec ante porta laoreet. Aenean viverra in lorem eu
+                        condimentum. Pellentesque
+                        habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur
+                        interdum, tellus quis bibendum vulputate, quam tortor accumsan nulla, quis convallis est arcu
+                        sed nisl. Quisque porttitor laoreet luctus. Donec ac metus bibendum mauris scelerisque mattis eu
+                        sit amet mauris. Vivamus at mauris eu dolor scelerisque suscipit a a metus. Phasellus maximus
+                        luctus urna at ornare. Phasellus commodo tincidunt felis. Integer cursus quam lobortis, sagittis
+                        mauris sit amet, suscipit nibh. Duis erat tortor, tempus nec leo non, volutpat dignissim leo.
+                        Donec aliquet augue id tortor mattis, id ornare elit varius.
+
+                        Maecenas in purus lacinia, egestas elit eu, scelerisque nulla. Donec sed leo in arcu lacinia
+                        scelerisque. Phasellus enim purus, porta sit amet nisi volutpat, bibendum vehicula turpis.
+                        Mauris volutpat neque sit amet elementum luctus. Nulla viverra neque sem, sed feugiat risus
+                        consequat et. Integer pellentesque leo ac molestie faucibus. Praesent at accumsan ante, accumsan
+                        feugiat arcu. Integer sed tincidunt nisl. Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Aenean lacinia vel ex quis faucibus. Nam laoreet eget lorem a auctor. Suspendisse ac massa
+                        id est scelerisque tristique quis vel urna. Curabitur metus nulla, sollicitudin nec suscipit ut,
+                        commodo in elit. Praesent neque augue, mollis a scelerisque bibendum, cursus sed nunc.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row justify-content-center main-background align-items-center text-center bg-danger m-0 p-2 w-100 hr-bottom ">
+
+        <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2 m-2">
+            <img src="img/bitmap_6.png">
+        </div>
+        <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2 m-2">
+            <img src="img/bitmap_4.png">
+        </div>
+        <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2 m-2">
+            <img src="img/bitmap_3.png">
+        </div>
+        <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2 m-2">
+            <img src="img/bitmap_2.png">
+        </div>
+        <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2 m-2">
+            <img src="img/bitmap_5.png">
+        </div>
+        <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2 m-2">
+            <img src="img/bitmap.png">
+        </div>
+        <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2 m-2">
+            <img src="img/symbol.png">
+        </div>
+
+    </div>
+
+    <div class="footer m-0 pt-5 pb-4 pl-5 pr-5">
+        <div class="row justify-content-center mb-5">
+            <div class="col-xl-4 col-lg-6 col-md-8 col-sm-12 text-center">
+                <img class="mb-4" src="img/group@2x.png">
+                <p class="sub-title">
+                    The security our user's accounts and personal information, are our main priority.
+                    The security our user's accounts and personal information, are our main priority.
+                </p>
+                <div class="row justify-content-center mt-4 mb-3 align-items-end">
+                    <div class="col p-0 mr-2 mt-1 text-center">
+                        <img src="img/group-6_2.png"><br>
+                        <span class="sub-title">Facebook</span>
+                    </div>
+                    <div class="col p-0 mr-2 mt-1 text-center">
+                        <img src="img/skype.png"><br>
+                        <span class="sub-title">Skype</span>
+                    </div>
+                    <div class="col p-0 mr-2 mt-1 text-center">
+                        <img src="img/group-6.png"><br>
+                        <span class="sub-title">Telegram</span>
+                    </div>
+                    <div class="col p-0 mr-2 mt-1 text-center">
+                        <img src="img/viber.png"><br>
+                        <span class="sub-title">Viber</span>
+                    </div>
+                    <div class="col p-0 mt-1 text-center">
+                        <img src="img/combined-shape.png"><br>
+                        <span class="sub-title">Wechat</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center mt-5">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                <hr style="background: #d3d3d3">
+            </div>
+        </div>
+
+        <div class="row justify-content-center mt-2">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 text-center">
+                <span class="sub-title"><i class="far fa-copyright"></i> 2020. All Rights Reserved</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script crossorigin="anonymous" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
